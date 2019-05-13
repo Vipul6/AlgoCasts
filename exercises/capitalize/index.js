@@ -9,6 +9,16 @@
 
 
 //--------- Solution 2
+// function capitalize(str) {
+//   let capitalizeStr = '';
+  
+//   for(let cStr of str.split(' ')) {
+//     const convert = cStr.charAt(0).toUpperCase() + cStr.slice(1);
+//     capitalizeStr += ' ' + convert;
+//     console.log(capitalizeStr)
+//   }
+//   return capitalizeStr;
+// }
 
 function capitalize(str) {
     let result = str[0].toUpperCase();
